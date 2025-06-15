@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem"
@@ -30,11 +31,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Some say the world will end in fire,
-          <br />
-          Some say in ice.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
