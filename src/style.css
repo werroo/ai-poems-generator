@@ -1,0 +1,72 @@
+body {
+  background: #fffbbe;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #a374d5;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 36;
+  line-height: 1.5;
+  margin: 0;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  background-color: #eec1ea;
+  border-radius: 12px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #a374d5;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  font-size: 16px;
+  color: #ffff;
+  width: 120px;
+}
+
+.poem {
+  font-size: 16px;
+  background-color: #eec1ea;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #a374d5;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
